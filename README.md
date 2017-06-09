@@ -3,7 +3,7 @@
 [![CRAN](https://www.r-pkg.org/badges/version/starryeyes)]()
 [![Travis-CI Build Status](https://travis-ci.org/jonocarroll/starryeyes.svg?branch=master)](https://travis-ci.org/jonocarroll/starryeyes)
 
-<img src="https://raw.githubusercontent.com/jonocarroll/starryeyes/master/man/figures/starsinhereyes_banner.jpg", width="300"></img>
+<img src="./man/figures/starsinhereyes_banner.jpg", width="300"></img>
 
 Discover new packages through social delegation! 
 
@@ -33,8 +33,7 @@ This will work all by itself if you're using a `GITHUB_PAT` environment variable
 
 The final product looks something like this:
 
-<img src="https://raw.githubusercontent.com/jonocarroll/starryeyes/master/man/figures/shinydashboard.png", width = "80%"></img>
-
+<img src="./man/figures/shinydashboard.png", width = "80%"></img>
 
 ## Future work:
 
@@ -42,6 +41,6 @@ The final product looks something like this:
 - Remove duplicates (spread them out over a unique starring)
 
 
-<img src="https://raw.githubusercontent.com/jonocarroll/starryeyes/master/man/figures/fullofstars.gif", width = "300"></img>
+<img src="./man/figures/fullofstars.gif", width = "300"></img>
 
 _"Oh my God! — it's full of stars!"_
