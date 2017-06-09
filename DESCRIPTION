@@ -1,0 +1,22 @@
+Package: starryeyes
+Title: Gather together stars from people you follow
+Version: 0.0.0.9000
+Authors@R: person("Jonathan", "Carroll", email = "rpkg@jcarroll.com.au", role = c("aut", "cre"))
+Description: "Oh my God! — it's full of stars!" Discover new packages by leveraging the stars your followers provide.
+Depends: R (>= 3.4.0)
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+Imports: getPass,
+    httr,
+    xml2,
+    magrittr,
+    rvest,
+    jsonlite
+Suggests: testthat,
+    shiny,
+    shinydashboard,
+    DT
+URL: https://github.com/jonocarroll/starryeyes
+BugReports: https://github.com/jonocarroll/starryeyes/issues
+RoxygenNote: 6.0.1
