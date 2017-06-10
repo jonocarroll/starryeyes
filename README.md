@@ -20,6 +20,8 @@ devtools::install_github("jonocarroll/starryeyes")
 
 GitHub doesn't officially have an API endpoint for "_which of the people I follow starred something?_" but I wanted a way to do this. Originally I set up an IFTTT action to watch my private GitHub RSS feed and send me an email when a new star appeared, but this quickly filled my inbox.
 
+![](./man/figures/githubstars.png)
+
 This way, I can check-in when I like.
 
 
