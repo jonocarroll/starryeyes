@@ -29,7 +29,7 @@ This way, I can check-in when I like.
 2. Wait until they star a heap of cool repos
 3. `starryeyes()` to produce a `shinydashboard` of the activity.
 
-This will work all by itself if you're using a `GITHUB_PAT` environment variable already. If not, you can supply your GitHub `username`. You can enter your `password` or be prompted (securely) for it.
+This will work out your GitHub username by itself if you're using a `GITHUB_PAT` environment variable already. If not, you can supply your GitHub `username`. You can enter your `password` or be prompted (securely) for it. You can just provide the `feedURL` if you rather skip all of that (see `github.com` if you're logged in).
 
 The final product looks something like this:
 
@@ -39,7 +39,7 @@ The final product looks something like this:
 
 - Cache the results so they accumulate over time
 - Remove duplicates (spread them out over a unique starring)
-
+- shinyapps.io (?)
 
 ![](./man/figures/fullofstars.gif)
 

@@ -6,7 +6,7 @@
 #' @export
 extract_feed <- function(feed) {
 
-    entries <- httr::GET(feed$feed) %>%
+    entries <- httr::GET(feed) %>%
         xml2::read_html() %>%
         rvest::html_nodes("entry")
 

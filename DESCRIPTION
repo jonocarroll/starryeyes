@@ -1,6 +1,6 @@
 Package: starryeyes
 Title: Gather together stars from people you follow
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: person("Jonathan", "Carroll", email = "rpkg@jcarroll.com.au", role = c("aut", "cre"))
 Description: "Oh my God! — it's full of stars!" Discover new packages by leveraging the stars your followers provide.
 Depends: R (>= 3.4.0)

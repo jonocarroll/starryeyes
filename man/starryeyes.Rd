@@ -4,12 +4,14 @@
 \alias{starryeyes}
 \title{Create a shinydashboard of the recent activity}
 \usage{
-starryeyes(username, password)
+starryeyes(username, password, feedURL)
 }
 \arguments{
 \item{username}{GitHub username. If missing, will attempt to use GITHUB_PAT to determine it.}
 
 \item{password}{GitHub password. If missing, will be prompted to enter is securely.}
+
+\item{feed}{(optionally) a GitHub RSS feed URL (with token) to use}
 }
 \value{
 produces a shinydashboard of recent activity.
