@@ -1,7 +1,7 @@
 #' Create a shinydashboard of the recent activity
 #'
 #' @inheritParams obtain_feed
-#' @param feed (optionally) a GitHub RSS feed URL (with token) to use
+#' @param feedURL (optionally) a GitHub RSS feed URL (with token) to use
 #' @return produces a shinydashboard of recent activity.
 #' @export
 starryeyes <- function(username, password, feedURL) {

@@ -11,7 +11,7 @@ starryeyes(username, password, feedURL)
 
 \item{password}{GitHub password. If missing, will be prompted to enter is securely.}
 
-\item{feed}{(optionally) a GitHub RSS feed URL (with token) to use}
+\item{feedURL}{(optionally) a GitHub RSS feed URL (with token) to use}
 }
 \value{
 produces a shinydashboard of recent activity.
